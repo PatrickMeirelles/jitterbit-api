@@ -1,0 +1,28 @@
+{
+  "name": "jitterbit-api",
+  "version": "1.0.0",
+  "description": "Jitterbit API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatrickMeirelles/jitterbit-api-project.git"
+  },
+  "author": "Patrick Meirelles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatrickMeirelles/jitterbit-api/issues"
+  },
+  "homepage": "https://github.com/PatrickMeirelles/jitterbit-api#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.3"
+  }
+}
